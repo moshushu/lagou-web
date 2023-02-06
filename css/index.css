@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navigation {
+  background-color: black;
+  height: 40px;
+  line-height: 22px;
+} 
+
+
+.navigation > div{
+  float: left;
+}
+
+.navigation ul {
+  margin: 0;
+  /* padding: ; */
+}
+
+.navigation-li li{
+  float: left;
+  list-style-type: none;
+}
+
+.navigation-li li a{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px 10px;
+  line-height: 10px;
+  color: white;
+  font-size: 12px;
+}
